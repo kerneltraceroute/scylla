@@ -135,6 +135,8 @@ class mutation_reordered_with_truncate_exception : public std::exception {};
 using shared_memtable = lw_shared_ptr<memtable>;
 class memtable_list;
 
+//seni bolecegi//seni bolecegimm
+
 // We could just add all memtables, regardless of types, to a single list, and
 // then filter them out when we read them. Here's why I have chosen not to do
 // it:
